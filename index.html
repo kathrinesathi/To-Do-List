@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="page Description">
+    <meta name="author" content="Kathy">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>To do list</title>
+    <style>
+        #todoList label {
+            width: 80%;
+        }
+        
+        #todoList li {
+            list-style-type: none;
+        }
+        
+        .uncompleted label {
+            color: #afa7a7;
+            text-decoration: line-through;
+        }
+        
+        #todoList .btn {
+            margin-left: 10px;
+        }
+        
+        .btn {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">To DO LIST </h1>
+        <div class="form-group"><label for="itemInput">Add Item</label><input type="text" class="form-control" name="" id="itemInput"></div><button id="addButton" class="btn btn-primary">Add To Do List</button><button id="clearButton" class="btn btn-danger">Clear To Do List </button><br><br>
+        <h3>To Do List</h3>
+        <ul id="todoList"></ul>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
